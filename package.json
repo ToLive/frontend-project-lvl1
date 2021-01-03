@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "ToLive's first js project on Hexlet",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToLive/frontend-project-lvl1.git"
+  },
+  "author": "ToLive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToLive/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ToLive/frontend-project-lvl1#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
