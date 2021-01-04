@@ -23,7 +23,14 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      
+      - name: npm install
+      # Install project
+        run: |
+          make install
+      # Add environment variables
+        env:
+          CI: true
       - name: Run eslint
         run: |
           make lint
