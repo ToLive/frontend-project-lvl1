@@ -4,11 +4,11 @@ const ANSWERS_TO_WIN = 3;
 
 const startGame = (gameDescription, getGameData) => {
   console.log('Welcome to the Brain Game!');
-  console.log(gameDescription);
 
   const userName = readlineSync.question('May I have your name? ');
 
   console.log(`Hello, ${userName}`);
+  console.log(gameDescription);
 
   for (let i = 0; i < ANSWERS_TO_WIN; i += 1) {
     const { question, rightAnswer } = getGameData();
